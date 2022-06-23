@@ -8,6 +8,7 @@ public class Exercicio5 {
         int n1, n2, n3;
 		Scanner sc = new Scanner(System.in);
 
+		System.out.println("Ordem crescente de números inteiros");
 		System.out.println("Digite o primeiro valor: ");
 		n1 = sc.nextInt();
 		

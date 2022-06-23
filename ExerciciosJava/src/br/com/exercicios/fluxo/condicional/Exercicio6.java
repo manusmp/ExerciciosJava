@@ -8,6 +8,8 @@ public class Exercicio6 {
 		double sexo, altura, peso;
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Qual seu peso ideal?");
+
 		System.out.println("Digite 1-para mulher e 2-para homem: ");
 		sexo = sc.nextDouble();
 		

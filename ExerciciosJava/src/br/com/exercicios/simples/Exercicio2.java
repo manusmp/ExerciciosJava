@@ -9,16 +9,14 @@ public class Exercicio2 {
         float altura, maior=0, menor=10, somaA=0, mediaH=0 ;
         Scanner sc = new Scanner(System.in);
 
-        for (int i=0; i<10; i++) {
-        	
+        for (int i=0; i<10; i++) {      
+
             System.out.print("Digite 1 para Mulher e 2 para Homem: ");
             sexo = sc.nextInt();
             
             System.out.print("Digite a altura: ");
-            altura = sc.nextFloat();
-            
-           
-           
+            altura = sc.nextFloat();        
+                      
             if (sexo == 1) {
                 qtdM++;
             } else if (sexo == 2) {

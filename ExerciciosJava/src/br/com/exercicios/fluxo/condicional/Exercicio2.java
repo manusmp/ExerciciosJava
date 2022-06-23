@@ -8,6 +8,9 @@ public class Exercicio2 {
 		double anoN, anoA;
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Será que você pode votar?");
+
+		
 		System.out.println("Digite o ano que nasceu: ");
 		anoN = sc.nextDouble();
 		

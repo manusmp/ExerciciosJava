@@ -7,6 +7,8 @@ public class Exercicio4 {
 	  public static void main(String[] args) {
 	        double hp, lp, la, ha, qtd;
 	        Scanner sc = new Scanner(System.in);
+	        System.out.printf("Quantidade de azulejos necessários para cobrir uma parede");   
+
 	        
 	        System.out.println("Digite a altura da parede: ");
 	        hp = sc.nextDouble();
@@ -23,7 +25,7 @@ public class Exercicio4 {
 	        
 	        qtd = (hp * lp) / (ha * la);
 	  
-	        System.out.printf("Quantidade de azulejos necessários para cobrir a parede: %.2f" , qtd);   
+	        System.out.printf("A quantidade de azulejos necessária é: %.2f" , qtd);   
 	        
 	        sc.close();
 }

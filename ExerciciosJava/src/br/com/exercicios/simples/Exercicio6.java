@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class Exercicio6 {
 	
 	public static void main(String[] args) {
-        double m, h, t, cavalos;
-        
+        double m, h, t, cavalos;        
         Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Quantidade de cavalos necessários para se levantar uma massa");
         
         System.out.println("Digite a massa em quilogramas: ");
         m = sc.nextDouble();

@@ -8,6 +8,9 @@ public class Exercicio3 {
     	
         double func, salario=0, media, totSalario=0;
         Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Média salarial");
+
 
         System.out.print("Digite a quantidade de funcionarios: ");
         func = sc.nextInt();

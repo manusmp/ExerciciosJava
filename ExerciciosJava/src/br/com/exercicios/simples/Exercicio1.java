@@ -7,6 +7,9 @@ public class Exercicio1 {
         double C, K, F, Re, Ra;
         Scanner sc = new Scanner(System.in);
         
+        System.out.println("Conversor de temperaturas");
+
+        
         System.out.println("Digite a temperatura em Celsius: ");
         C = sc.nextDouble();
         

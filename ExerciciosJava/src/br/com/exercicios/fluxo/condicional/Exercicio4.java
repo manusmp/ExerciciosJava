@@ -9,6 +9,9 @@ public class Exercicio4 {
 		int qtd;
 		Scanner sc =new Scanner(System.in);
 		
+		
+		System.out.println("Venda de maçãs!!!");
+
 		System.out.println("Digite a quantidade de maçãs: ");
 		qtd = sc.nextInt();
 		
