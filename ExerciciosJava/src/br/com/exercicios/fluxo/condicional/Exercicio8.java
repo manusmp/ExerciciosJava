@@ -27,9 +27,9 @@ public class Exercicio8 {
 			area = medida * qtd;
 			System.out.println("Pentágono com area  " + area);
 		}else if(qtd < 3) {
-			System.out.println("Não é um polígono!");
+			System.err.println("Não é um polígono!");
 		}else {
-			System.out.println("Polígono não identificado!!!");
+			System.err.println("Polígono não identificado!!!");
 		}
 	
 		sc.close();	

@@ -20,7 +20,7 @@ public class Exercicio2 {
 		if (anoA - anoN >= 18) {
 			System.out.println("Você pode votar!");
 		}else {
-			System.out.println("Esse ano não pode!");
+			System.err.println("Esse ano não pode!");
 		}
 		sc.close();
 	}

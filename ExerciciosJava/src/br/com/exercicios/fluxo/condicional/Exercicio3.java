@@ -14,13 +14,8 @@ public class Exercicio3 {
 		if(senha.equals("1234")) {			
 			System.out.println("ACESSO PERMITIDO");
 		}else {
-			System.out.println("ACESSO NEGADO");
-		}
-		
-		
-		
-		
-		
+			System.err.println("ACESSO NEGADO");
+		}		
 		
 		sc.close();
 	}

@@ -23,7 +23,7 @@ public class Exercicio2 {
                 qtdH++;
                 somaA = somaA + altura;
             } else {
-                System.out.println("Opção inválida!");
+                System.err.println("Opção inválida!");
             }
             if (altura > maior) {
                  maior = altura;
